@@ -1,0 +1,25 @@
+.main-navigation {
+    .menu {
+        li {
+            &:not(:last-of-type) {
+                margin-right: 3.125em;
+            }
+        }
+    }
+}
+
+.menu {
+    list-style-type: none;
+
+    &--horizontal {
+        li {
+            display: inline-block;
+        }
+    }
+    
+    li {
+        a {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.section {
+    .inner {
+        &--offset {
+            width: 73.375rem;
+            margin: 0 auto;
+        }
+    }
+}
+
+.hero {
+    width: 60%;
+    margin: 0 auto;
+
+    .heading {
+        font-size: 6.4375rem;
+        font-family: var(--font-secondary);
+    }
+
+    .subheading {
+        font-size: 2.125rem;
+    }
+}
+
+.section {
+    &#top-banner {
+        color: var(--white);
+    }
+
+    &#restaurant-menu {
+        background-color: var(--lightgreen);
+    }
+}
