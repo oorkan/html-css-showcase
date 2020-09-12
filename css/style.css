@@ -53,9 +53,11 @@ img:not([alt]) {
   margin: 0 auto; }
   .hero .heading {
     font-size: 6.4375rem;
-    font-family: var(--font-secondary); }
+    line-height: 1;
+    font-family: var(--font-secondary);
+    margin: 3.125rem 0; }
   .hero .subheading {
-    font-size: 2.125rem; }
+    font-size: 2.08312rem; }
 
 .section#top-banner {
   color: var(--white); }
