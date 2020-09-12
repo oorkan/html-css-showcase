@@ -61,6 +61,8 @@ img:not([alt]) {
 
 .section#top-banner {
   color: var(--white); }
+  .section#top-banner .inner {
+    padding-bottom: 15rem; }
 
 .section#restaurant-menu {
   background-color: var(--lightgreen); }

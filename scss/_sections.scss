@@ -26,6 +26,10 @@
 .section {
     &#top-banner {
         color: var(--white);
+
+        .inner {
+            padding-bottom: rem(240);
+        }
     }
 
     &#restaurant-menu {
