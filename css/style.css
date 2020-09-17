@@ -44,6 +44,9 @@ img:not([alt]) {
 .text-center {
   text-align: center; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 .section .inner--offset {
   width: 73.375rem;
   margin: 0 auto; }
@@ -66,6 +69,11 @@ img:not([alt]) {
 
 .section#restaurant-menu {
   background-color: var(--lightgreen); }
+  .section#restaurant-menu .heading {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 2.8625rem;
+    color: var(--blue); }
 
 .header#site-header {
   display: flex;
