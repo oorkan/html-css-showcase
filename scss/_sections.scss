@@ -35,11 +35,19 @@
     &#restaurant-menu {
         background-color: var(--lightgreen);
 
-        .heading {
+        .inner > .heading {
             font-family: var(--font-secondary);
             font-weight: 700;
             font-size: rem(45.8);
             color: var(--blue);
         }
+    }
+}
+
+#restaurant-menu-items {
+    display: flex;
+
+    .item {
+        width: rem(342);
     }
 }

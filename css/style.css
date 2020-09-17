@@ -69,11 +69,16 @@ img:not([alt]) {
 
 .section#restaurant-menu {
   background-color: var(--lightgreen); }
-  .section#restaurant-menu .heading {
+  .section#restaurant-menu .inner > .heading {
     font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 2.8625rem;
     color: var(--blue); }
+
+#restaurant-menu-items {
+  display: flex; }
+  #restaurant-menu-items .item {
+    width: 21.375rem; }
 
 .header#site-header {
   display: flex;
